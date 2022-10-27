@@ -76,7 +76,6 @@ public class InsertVulnerable
                 System.out.println(rs.getString(5));
             }
             rs.close();
-            ConnectionPool.getInstance().closeConnection(conn);
         }
         catch(SQLException e)
         {

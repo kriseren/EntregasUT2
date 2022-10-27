@@ -4,21 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57bae33a-4f28-42e9-8b32-2832a39215ed" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/diego/ConnectionPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/diego/InicializaBaseDeDatos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/diego/InsertVulnerable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/diego/OperacionesResultSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/diego/AppTest.java" afterDir="false" />
+    <list default="true" id="57bae33a-4f28-42e9-8b32-2832a39215ed" name="Changes" comment="Añado mejoras">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/diego/Transaccion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/diego/InsertVulnerable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/diego/InsertVulnerable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/diego/OperacionesResultSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/diego/OperacionesResultSet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,8 +68,16 @@
       <workItem from="1666795503051" duration="9958000" />
       <workItem from="1666807609380" duration="494000" />
       <workItem from="1666808434476" duration="1271000" />
-      <workItem from="1666882629748" duration="3375000" />
+      <workItem from="1666882629748" duration="6136000" />
     </task>
+    <task id="LOCAL-00001" summary="Añado mejoras">
+      <created>1666886226923</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666886226923</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,5 +93,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Añado mejoras" />
+    <option name="LAST_COMMIT_MESSAGE" value="Añado mejoras" />
   </component>
 </project>
