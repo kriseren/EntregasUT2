@@ -27,7 +27,6 @@ public class InicializaBaseDeDatos
             insertaArtista(pstmt,"Jonatan",10,31,'S');
             insertaArtista(pstmt,"Samuel",512.5,23,'S');
             System.out.println("Datos insertados correctamente.");
-            ConnectionPool.getInstance().closeConnection(conn);
         }
         catch(SQLException e)
         {

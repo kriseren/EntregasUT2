@@ -30,8 +30,8 @@ public class Transaccion
             pstmt.setString(4,"B");
             pstmt.executeUpdate();
             //Realizamos la segunda operación --> Cambiar el nombre de un artista por otro.
-            pstmt2.setString(1,"Alicia");
-            pstmt2.setString(2,"Alberto");
+                pstmt2.setString(1,"Alberto");
+            pstmt2.setString(2,"Ramón");
             pstmt2.executeUpdate();
             //Si al final no da error la ejecución, se hace un commit total.
             conn.commit();

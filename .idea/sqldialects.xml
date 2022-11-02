@@ -4,5 +4,6 @@
     <file url="file://$PROJECT_DIR$/src/main/java/com/diego/InicializaBaseDeDatos.java" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/diego/InsertVulnerable.java" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/diego/OperacionesResultSet.java" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/diego/procedure.sql" dialect="GenericSQL" />
   </component>
 </project>

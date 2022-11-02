@@ -34,7 +34,7 @@ public class ConnectionPool
         Connection conn = null;
         try
         {
-            conn = this.bds.getConnection();
+            conn = bds.getConnection();
         }
         catch(SQLException e){e.printStackTrace();}
         return conn;
