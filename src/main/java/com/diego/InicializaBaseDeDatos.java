@@ -11,6 +11,8 @@ public class InicializaBaseDeDatos
         creaTablaArtistas();
         //Insertamos datos de prueba en la tabla Artistas.
         insertaDatos();
+        //Crea función y procedimiento.
+        creaFuncionYProcedimiento();
     }
 
     public static void insertaDatos()
@@ -80,6 +82,40 @@ public class InicializaBaseDeDatos
             String sql = "CREATE DATABASE DIEGO";
             stmt.executeUpdate(sql);
             System.out.println("Base de datos creada correctamente");
+        }
+        catch(SQLException e)
+        {
+            e.printStackTrace();
+        }
+    }
+
+    public static void creaFuncionYProcedimiento()
+    {
+        //Nos conectamos y creamos una base de datos.
+        try(Connection conn = ConnectionPool.getInstance().getConnection();
+            Statement stmt = conn.createStatement())
+        {
+            String funcion = "CREATE OR REPLACE FUNCTION public.cuentaArtistas()\n" +
+                    "RETURNS int\n" +
+                    "\tLANGUAGE plpgsql\n" +
+                    "AS $$\n" +
+                    "declare\n" +
+                    "contador integer;\n" +
+                    "BEGIN\n" +
+                    "    select count(*) into contador from artistas;\n" +
+                    "return contador;\n" +
+                    "END;";
+            String procedimiento = "CREATE OR REPLACE PROCEDURE public.borraArtista(n varchar)\n" +
+                    "\tLANGUAGE plpgsql\n" +
+                    "AS $procedure$\n" +
+                    "BEGIN\n" +
+                    "    DELETE FROM artistas WHERE nombre = n;\n" +
+                    "END;\n" +
+                    "$procedure$\n" +
+                    ";";
+            stmt.executeUpdate(procedimiento);
+            stmt.executeUpdate(funcion);
+            System.out.println("Función y procedimiento creados correctamente.");
         }
         catch(SQLException e)
         {
