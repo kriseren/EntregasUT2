@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57bae33a-4f28-42e9-8b32-2832a39215ed" name="Changes" comment="Añado mejoras">
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+    <list default="true" id="57bae33a-4f28-42e9-8b32-2832a39215ed" name="Changes" comment="Modofico el InicializaBaseDeDatos para que cree la funcion y procedimiento">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/diego/InicializaBaseDeDatos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/diego/InicializaBaseDeDatos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/diego/Transaccion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/diego/Transaccion.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +38,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/media/logan/Rocketek/2ºDAM/Acceso a datos/ut2/Ejercicios/entregasUT2",
+    "last_opened_file_path": "/media/ciclosm/Rocketek/2ºDAM/Acceso a datos/ut2/Ejercicios/entregasUT2",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
@@ -77,6 +75,8 @@
       <workItem from="1667510103478" duration="2219000" />
       <workItem from="1667545326058" duration="110000" />
       <workItem from="1668547289582" duration="1672000" />
+      <workItem from="1668548982024" duration="219000" />
+      <workItem from="1668600959204" duration="888000" />
     </task>
     <task id="LOCAL-00001" summary="Añado mejoras">
       <created>1666886226923</created>
@@ -99,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667392394293</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Modofico el InicializaBaseDeDatos para que cree la funcion y procedimiento">
+      <created>1668549191479</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668549191479</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +125,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Añado mejoras" />
-    <option name="LAST_COMMIT_MESSAGE" value="Añado mejoras" />
+    <MESSAGE value="Modofico el InicializaBaseDeDatos para que cree la funcion y procedimiento" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modofico el InicializaBaseDeDatos para que cree la funcion y procedimiento" />
   </component>
 </project>

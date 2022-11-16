@@ -104,7 +104,8 @@ public class InicializaBaseDeDatos
                     "BEGIN\n" +
                     "    select count(*) into contador from artistas;\n" +
                     "return contador;\n" +
-                    "END;";
+                    "END;" +
+                    "$$;";
             String procedimiento = "CREATE OR REPLACE PROCEDURE public.borraArtista(n varchar)\n" +
                     "\tLANGUAGE plpgsql\n" +
                     "AS $procedure$\n" +
